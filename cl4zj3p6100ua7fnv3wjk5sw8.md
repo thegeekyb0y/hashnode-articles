@@ -1,0 +1,197 @@
+## Python Lists and Methods Explained
+
+### Introduction
+
+In this blog, I will be covering all the methods of python lists in detail that I covered in the form of cheatsheet.
+
+HD Cheatsheet Link : https://thegeekyboy.gumroad.com/l/python-lists
+
+![list.png](https://cdn.hashnode.com/res/hashnode/image/upload/v1656500327454/3kIaFYp7W.png align="left")
+
+### What are Lists ?
+
+Python lists are containers that are used to store a list of values of any type. Python lists are **mutable** , we can change the elements of list in place.
+
+Example of a list:
+
+```python
+abc = [1,2,3] 
+lis = ['a','b','c']
+``` 
+
+### List Methods
+
+**1) The len() Function**
+
+Returns the length of its argumented list. It returns the number of elements in the passed list.
+
+Example : 
+```python
+abc = [1,2,3]
+print(len(abc))
+# Output = 3
+```
+
+**2) The list() method**
+
+Returns a list created from the passed argument. 
+The argument should be a sequence type, i.e. either string or tuple.
+
+Syntax :
+
+```
+list([<sequence>])
+```
+
+Example :
+
+```
+list('aditya')
+```
+Output: ```['a', 'd', 'i', 't', 'y', 'a']```
+
+**3) The index() method**
+
+This function returns the index of the first matched item from the list.
+
+Syntax:
+```
+list.index(<item>)
+```
+
+Example :
+
+```python
+lis = [1,2,3]
+lis.index(1)
+# output: 0
+
+lis = [1,2,3,3,3,4,5]
+lis.index(3)
+#output: 2
+```
+
+**4) The append() method**
+
+The append() method adds an item to the end of the list. It adds only one item and only at the end of the list.
+
+Syntax :
+```python
+list.append(item)
+```
+
+Example:
+
+```python
+currencies = ['Dollar', 'Euro', 'Pound']
+# append 'Yen' to the list
+currencies.append('Yen')
+print(currencies)
+# Output: ['Dollar', 'Euro', 'Pound', 'Yen']
+```
+
+**5) The extend() method**
+
+The extend() method adds all the elements of an iterable (list, tuple, string etc.) to the end of the list.
+
+Example :
+```python
+# create a list
+prime_numbers = [2, 3, 5]
+# create another list
+numbers = [1, 4]
+numbers.extend(prime_numbers)
+print(numbers)
+
+# Output: [1, 4, 2, 3, 5]
+```
+
+**6) The insert() method**
+
+The insert() method inserts an element to the list at the specified index.
+
+Example :
+```python
+vowel = ['a', 'e', 'i', 'u']
+vowel.insert(3, 'o')
+print('List:', vowel)
+# Output: List: ['a', 'e', 'i', 'o', 'u']
+```
+
+**7. The remove() method**
+
+The remove() method removes the first matching element (which is passed as an argument) from the list.
+
+Example:
+```python
+prime_numbers = [2, 3, 5, 7, 9, 11]
+prime_numbers.remove(9)
+print('Updated List: ', prime_numbers)
+
+# Output: Updated List:  [2, 3, 5, 7, 11]
+```
+**
+8) The pop() method**
+
+The pop() method removes the item at the given index from the list and returns the removed item.
+
+Example: 
+```python
+prime_numbers = [2, 3, 5, 7]
+removed_element = prime_numbers.pop(2)
+
+print('Removed Element:', removed_element)
+print('Updated List:', prime_numbers)
+
+# Output: 
+# Removed Element: 5
+# Updated List: [2, 3, 7]
+```
+
+**9) The sort() method**
+
+The sort() method sorts the items of a list in ascending or descending order.
+
+Example:
+```python
+prime_numbers = [11, 3, 7, 5, 2]
+prime_numbers.sort()
+
+print(prime_numbers)
+
+# Output: [2, 3, 5, 7, 11]
+```
+
+**10) The copy() method**
+
+The copy() method returns a shallow copy of the list.
+
+Example:
+```python
+prime_numbers = [2, 3, 5]
+numbers = prime_numbers.copy()
+print('Copied List:', numbers)
+
+# Output: Copied List: [2, 3, 5]
+```
+
+**11) The reverse() method**
+
+The reverse() method reverses the elements of the list.
+
+Example:
+```python
+prime_numbers = [2, 3, 5, 7]
+
+prime_numbers.reverse()
+print('Reversed List:', prime_numbers)
+
+# Output: Reversed List: [7, 5, 3, 2]
+```
+
+### Reference Taken from
+1. Sumita Arora Python Book
+2. Pynative Blog
+
+Thankyou for tuning in till the end. Hope you enjoyed the blog and cheatsheet.
+Stay tuned for next blog.
