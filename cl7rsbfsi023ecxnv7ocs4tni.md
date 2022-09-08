@@ -37,4 +37,4 @@ No matter what is exception, code inside finally is always executed.
 ![image.png](https://cdn.hashnode.com/res/hashnode/image/upload/v1662564859029/Ey7Rl4xWJ.png align="left")
 
 Thats it from my side for this week’s newsletter. Meet you in next wednesday.
-Can’t wait till next week? Follow me on [twitter](adicode.ml/twitter) where I post these stuff daily.
+Can’t wait till next week? Follow me on [twitter](twitter.com/thegeekyb0y) where I post these stuff daily.
