@@ -1,4 +1,4 @@
-## Python - The easy way
+# Python - The easy way
 
 Hello world, how y'll are doing?
 
