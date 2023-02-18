@@ -11,6 +11,8 @@ In this blog post, I'm going to talk about what it's like to debug Python code a
 
 I was working on a project that involved connecting to an API and getting some data. I thought I had everything figured out, but then I got an error message that made me go crazy.
 
+Note that: I will not be sharing real API used as I am currently developing a useful project out of it.
+
 ```python
 import requests
 
