@@ -6,12 +6,21 @@ In this blog post, I'm going to talk about what it's like to debug Python code a
 
 %[https://giphy.com/gifs/disneychannelofficial-xZsfgxuBCMdLU9I6Hl] 
 
+* ### What is Debugging?
+    
+
+Programmers tend to make errors while writing code and it's natural. Debugging is the way of finding the main cause of the error in the program or project code.
+
+There are many reasons due to which there can be errors in the code and it is very important to debug the error else it can cause a wide range of problems like data loss, vulnerabilities, system crashes and more.
+
+Hence debugging is an important aspect of programming and programming is incomplete without debugging.
+
 * ### About the Project
     
 
 I was working on a project that involved connecting to an API and getting some data. I thought I had everything figured out, but then I got an error message that made me go crazy.
 
-Note that: I will not be sharing real API used as I am currently developing a useful project out of it.
+Note that: I will not be sharing the real API used as I am currently developing a useful project out of it.
 
 ```python
 import requests
