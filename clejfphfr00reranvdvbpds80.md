@@ -217,4 +217,8 @@ So, as we wrap up this blog post, I'd like to leave you with one final thought: 
 
 If you want to level up your Python skills and learn more advanced techniques, be sure to follow me on [Twitter](http://adicode.ml/twitter), I post all kinds of cool Python stuff, from beginner-friendly tips to advanced tricks and techniques that will blow your mind. So what are you waiting for?
 
+Also, if you love my content and blogs, you can consider taking membership or buy me a coffee to support me. Thankyou, that's all for the blog.
+
+%[https://thegeekyboy.gumroad.com/l/memberships-and-support] 
+
 %[https://giphy.com/gifs/travisband-travis-fran-healy-band-ntl8yJ3ctzYHdJPm02]
