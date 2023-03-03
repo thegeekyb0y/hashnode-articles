@@ -17,7 +17,7 @@ In this blog post, we will delve into six distinct techniques for reversing a st
 
 One of the simplest ways to reverse a string in Python is to use slice notation. This method involves slicing the string and specifying a step of -1 to reverse the order of characters.
 
-The code for this method is as follows:
+
 
 ```python
 def reverse_string(str):
@@ -30,7 +30,7 @@ def reverse_string(str):
 
 Python has a built-in reverse function that can be used to reverse a sequence. This method involves converting the string to a list, reversing the list, and then joining the characters back together to form the reversed string.
 
-The code for this method is as follows:
+
 
 ```python
 def reverse_string(str):
@@ -43,7 +43,7 @@ def reverse_string(str):
 
 Another way to reverse a string in Python is to use a for loop. This method involves iterating through the string in reverse order and building a new string with the characters in reverse order.
 
-The code for this method is as follows:
+
 
 ```python
 def reverse_string(str):
@@ -59,7 +59,7 @@ def reverse_string(str):
 
 Recursion is another technique that can be used to reverse a string in Python. This method involves calling the function recursively with a smaller substring until the entire string is reversed.
 
-The code for this method is as follows:
+
 
 ```python
 def reverse_string(str):
@@ -75,7 +75,7 @@ def reverse_string(str):
 
 Using a while loop is another way to reverse a string in Python. This method involves initializing a variable to the length of the string and then decrementing it until it reaches zero.
 
-The code for this method is as follows:
+
 
 ```python
 def reverse_string(str):
