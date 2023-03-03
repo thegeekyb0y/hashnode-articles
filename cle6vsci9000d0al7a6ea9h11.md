@@ -1,10 +1,17 @@
-# A frustrating end to debugging my silly error in Python
+---
+title: "A frustrating end to debugging my silly error in Python"
+datePublished: Thu Feb 16 2023 09:09:46 GMT+0000 (Coordinated Universal Time)
+cuid: cle6vsci9000d0al7a6ea9h11
+slug: debugging-experience
+cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1676538110349/676f1bd8-c499-4a5f-998a-4481922fa308.jpeg
+ogImage: https://cdn.hashnode.com/res/hashnode/image/upload/v1676538250576/708bce41-f8aa-4dda-b74d-77490d0968a6.jpeg
+tags: python, apis, wemakedevs, debuggingfeb
+
+---
 
 Hey guys! I love coding. I think it's so cool to be able to make computers do whatever you want. But sometimes, things don't go as planned.
 
 In this blog post, I'm going to talk about what it's like to debug Python code and share my own frustrating experience.
-
-%[https://giphy.com/gifs/disneychannelofficial-xZsfgxuBCMdLU9I6Hl] 
 
 * ### What is Debugging?
     
@@ -55,8 +62,6 @@ The error message was not very helpful, and it was like this: `AttributeError: '
 
 This error message was not very informative, and I didn't know where to start looking for the root cause of the issue. I first went to the internet to know why Attribute Error occurs. It was my first time facing this error 😕
 
----
-
 * ### What did I do?
     
 
@@ -67,8 +72,6 @@ As time went on, I started getting more and more frustrated. I had been working 
 **I decided to quit the project after wasting half the day sorting the error. I got hopeless.**
 
 %[https://giphy.com/gifs/TRgyI2f0hRHBS] 
-
----
 
 * ### New Day, New Motivation and the Error Sorted!
     
@@ -108,8 +111,6 @@ if __name__ == '__main__':
 Now, when we run this code, we get the message **"Error: Failed to retrieve response",** which indicates that the request failed. This could be due to an invalid URL or network connectivity issues, among other possible causes.
 
 **And you know what?** **It worked! ⚡👀**
-
----
 
 * ### Conclusion
     
