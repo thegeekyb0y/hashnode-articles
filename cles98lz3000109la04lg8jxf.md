@@ -25,7 +25,7 @@ Assertions are a powerful tool for debugging Python code. An assertion is a stat
 * For example, you might use an assertion to check that a function's input is of the correct type, or that a value falls within a certain range. If the condition is not met, the assertion will raise an exception and stop the program, allowing you to quickly identify the issue and fix it.
     
 
-Here's an example of how assertions can be used in debugging:
+Example:
 
 ```python
 def divide(a, b):
@@ -51,7 +51,7 @@ Logging is a technique used to record events that occur during the execution of 
 * When you're working with complex code, it can be difficult to understand what's happening at each stage of the program's execution. Logging allows you to see what's happening in your code as it runs, so you can track down errors and understand how your program is working.
     
 
-For example, suppose you have the following code:
+For example:
 
 ```python
 import logging
@@ -91,7 +91,7 @@ A linter is a tool that analyzes your code for errors and style violations. It c
 * Linters can integrate with other tools, such as IDEs or version control systems, to provide a more seamless debugging experience. For example, some linters can be configured to run automatically when you save your code, which can help you catch issues earlier in the development process.
     
 
-For example, suppose you have the following code:
+For example:
 
 ```python
 def add(x, y):
@@ -144,7 +144,7 @@ Using try-except blocks can help you handle errors and prevent your program from
 * In some cases, you may want to provide a fallback option in case an error occurs. For example, you could use a try-except block to attempt to load a configuration file and provide default values if the file is not found or contains errors.
     
 
-For example, suppose you have the following code:
+For example:
 
 ```python
 def divide(x, y):
@@ -186,7 +186,7 @@ print(result)
 
 Docstrings can help you document your code and make it more readable. They provide information about the purpose of a function or module, its inputs and outputs, and any exceptions that it may raise.
 
-For example, suppose you have the following code:
+For example:
 
 ```python
 def add(x, y):
@@ -217,18 +217,18 @@ Context managers are a powerful tool for managing resources in Python, such as f
 * Context managers can be used to provide additional debugging information about a resource, such as its current state or the operations that have been performed on it. This can be particularly useful when trying to track down problems with a resource, as it can help you identify where an error occurred and what might have caused it.
     
 
-For example, suppose you want to open a file and write some data to it:
+For example:
 
 ```python
 with open("data.txt", "w") as f:
     f.write("Hello, aditya!")
 ```
 
-This code uses a context manager to open the "data.txt" file and write the string "Hello, world!" to it. The "with" statement ensures that the file is closed after the block of code is executed, hence reduces the chances of error.
+Above example uses a context manager to open the "data.txt" file and write the string "Hello, aditya" to it. The "with" statement ensures that the file is closed after the block of code is executed, hence reduces the chances of error.
 
 ## Tip 8: Use decorators
 
-Decorators can help you modify the behavior of functions or classes. They allow you to add functionality to existing code without modifying it directly. By adding print statements or logging messages to a decorator, you can quickly and easily add debugging information to your code
+Decorators can help you modify the behavior of functions or classes. They allow you to add functionality to existing code without modifying it directly. By adding print statements or logging messages to a decorator, you can quickly and easily add debugging information to your code.
 
 ```python
 def log_function(func):
@@ -247,11 +247,11 @@ result = add_numbers(1, 2)
 print(result)
 ```
 
-In this code, we define a decorator function called `log_function` that takes a function as an argument and returns a new function that wraps the original function with logging statements. The wrapper function prints the name of the function, the input arguments, and the output result before returning the result.
+In this code, I defined a decorator function called `log_function` that takes a function as an argument and returns a new function that wraps the original function with logging statements. The wrapper function prints name of the function, the input arguments, and the output result before returning the result.
 
-We then apply the decorator to a simple function called `add_numbers` using the `@log_function` syntax. When we call `add_numbers(1, 2)`, the decorator adds logging statements to the function and prints the input and output values. The final line prints the result of the function call.
+I then applied the decorator to a simple function called `add_numbers` using the `@log_function` syntax. When I called `add_numbers(1, 2)`, the decorator adds logging statements to the function and prints the input and output values. The final line prints the result of the function call.
 
-This is a simple example of how decorators can be used for debugging. By adding logging statements to your functions, you can quickly and easily identify any issues or errors that may occur.
+This was a simple example of how decorators can be used for debugging. By adding logging statements to your functions, you can quickly and easily identify any issues or errors that may occur.
 
 ## Conclusion
 
