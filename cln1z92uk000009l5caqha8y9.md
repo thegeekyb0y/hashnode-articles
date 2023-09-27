@@ -37,12 +37,12 @@ Big O notation is a way to describe the upper bound or worst-case performance of
 * In this example, regardless of the size of the list, the function accesses the first element directly, taking constant time.
     
 * ```python
-    def constant_time_example(my_list):
-        return my_list[0]
-    
-    my_list = [1, 2, 3, 4, 5]
-    result = constant_time_example(my_list)
-    print(result)  # Output: 1
+      def constant_time_example(my_list):
+          return my_list[0]
+      
+      my_list = [1, 2, 3, 4, 5]
+      result = constant_time_example(my_list)
+      print(result)  # Output: 1
     ```
     
 
@@ -59,22 +59,22 @@ Big O notation is a way to describe the upper bound or worst-case performance of
 * Code Example : Here, we use binary search to find an item in a sorted list. It's like a smart way of looking things up, quickly narrowing down the search space by half each time.
     
 * ```python
-    def binary_search(arr, target):
-        left, right = 0, len(arr) - 1
-        while left <= right:
-            mid = left + (right - left) // 2
-            if arr[mid] == target:
-                return mid
-            elif arr[mid] < target:
-                left = mid + 1
-            else:
-                right = mid - 1
-        return -1
-    
-    my_list = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
-    target = 5
-    result = binary_search(my_list, target)
-    print(result)  # Output: 4 (index of the target value)
+      def binary_search(arr, target):
+          left, right = 0, len(arr) - 1
+          while left <= right:
+              mid = left + (right - left) // 2
+              if arr[mid] == target:
+                  return mid
+              elif arr[mid] < target:
+                  left = mid + 1
+              else:
+                  right = mid - 1
+          return -1
+      
+      my_list = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+      target = 5
+      result = binary_search(my_list, target)
+      print(result)  # Output: 4 (index of the target value)
     ```
     
 
@@ -101,8 +101,9 @@ Big O notation is a way to describe the upper bound or worst-case performance of
     print(result)  # Output: 9 (maximum value in the list)
     ```
     
-* ### **O(n logn) Quasilinear Time:**
-    
+
+### **4\. O(n logn) Quasilinear Time:**
+
 * It's faster than quadratic time complexities (e.g., O(n^2)) but slower than linear time complexities (e.g., O(n)).
     
 * As the input size increases, the runtime grows slightly faster than linear but significantly slower than quadratic.
@@ -147,8 +148,8 @@ sorted_list = merge_sort(my_list)
 print(sorted_list)  # Output: [1, 1, 2, 3, 3, 4, 5, 5, 5, 6, 9]
 ```
 
-* ### **O(n^2) and Beyond - Quadratic Time and Higher**
-    
+### **5\. O(n^2) and Beyond - Quadratic Time and Higher**
+
 * Algorithms with O(n^2) time complexity and higher grow rapidly with the size of the input.
     
 * These algorithms become impractical for large inputs; their runtime can quickly become unmanageable.
@@ -158,16 +159,16 @@ print(sorted_list)  # Output: [1, 1, 2, 3, 3, 4, 5, 5, 5, 6, 9]
 * Bubble sort is an example of an O(n^2) sorting algorithm. It repeatedly compares and swaps elements in nested loops, which becomes slower as the list gets larger.
     
 * ```python
-    def bubble_sort(arr):
-        n = len(arr)
-        for i in range(n):
-            for j in range(0, n-i-1):
-                if arr[j] > arr[j+1]:
-                    arr[j], arr[j+1] = arr[j+1], arr[j]
-    
-    my_list = [64, 34, 25, 12, 22, 11, 90]
-    bubble_sort(my_list)
-    print(my_list)  # Output: [11, 12, 22, 25, 34, 64, 90]
+      def bubble_sort(arr):
+          n = len(arr)
+          for i in range(n):
+              for j in range(0, n-i-1):
+                  if arr[j] > arr[j+1]:
+                      arr[j], arr[j+1] = arr[j+1], arr[j]
+      
+      my_list = [64, 34, 25, 12, 22, 11, 90]
+      bubble_sort(my_list)
+      print(my_list)  # Output: [11, 12, 22, 25, 34, 64, 90]
     ```
     
 
