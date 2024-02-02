@@ -93,14 +93,6 @@ Since then, several successors of GPT have been developed, each increasing the s
     ![](https://cdn.hashnode.com/res/hashnode/image/upload/v1706646172573/1c107d15-5f8e-4efe-80ff-7621eae27233.png align="center")
     
 
-**Why was GPT Open source?**
-
-GPT was a breakthrough in NLP, but it also raised some ethical and social concerns. For instance, how could we ensure that the generated texts were not harmful, misleading, or biased? How could we prevent the misuse or abuse of such a powerful tool? How could we foster collaboration and innovation among researchers and developers, while respecting the intellectual property and privacy rights of the data sources?
-
-**To address these issues, OpenAI decided to release GPT as an open source model, so that anyone could access, modify, and share it freely.**
-
-*The open source release of GPT also inspired other organizations and researchers to follow suit and share their own models with the public. The rise of open source models has been a boon for the NLP field and the AI community at large. It has enabled faster progress, wider collaboration, and greater accessibility for researchers, developers, and users.*
-
 ### Common Applications of LLMs
 
 LLMs are popular for generating creative and informative text. But wait, there capabilities are not limited with just this. Here are some of the most common applications of LLMs:
